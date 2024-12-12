@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Item Shop</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+  <script src="sketch.js"></script>
+
+  <style>
+    h1 {
+        color: red; /* Set heading 1 color to white */
+        /* margin: auto; */
+        text-align: center;
+      }
+    h2 {
+      color: green; /* Set heading 1 color to white */
+      /* margin: auto; */
+      text-align: center;
+    }
+
+    #container{
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    canvas{
+        border-radius: 40px;
+    }
+    body{
+        background-image: url('../images/bg3.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        align-items: center;
+        justify-content: center;
+        line-height: 1.0;
+    }
+
+    @font-face {
+      font-family: dream;
+      src: url('../MusicGame/sounds/dream.ttf');
+    }
+    h1,h2{
+     font-family: dream;
+     color: white;
+     font-weight: 0.8;
+    }
+  </style>
+
+</head>
+<body>
+  <h1>Shop and select items from the Digi-Wonderland Store!</h1>
+  <h2>(Double click on the item you wish to purchase or select)</h2>
+  <div id="container">
+  </div>
+
+</body>
+</html>
